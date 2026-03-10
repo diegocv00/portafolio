@@ -254,6 +254,12 @@ h2 {
     transition: transform 0.5s;
 }
 
+.project-img img.project-img-app {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
 .project-item:hover .project-img img {
     transform: scale(1.05);
 }
